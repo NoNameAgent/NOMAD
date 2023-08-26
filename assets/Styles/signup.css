@@ -522,6 +522,7 @@
 
   .mainCC{
     /* margin-left: 140px; */
+    padding-left: 490px !important;
 
   }
 
@@ -531,15 +532,17 @@
     margin-top: -40px;
   }
 
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 900px) and  (max-width: 1400px){
     .mainCC{
-        margin-left: 140px;
+        /* margin-left: 140px; */
+        padding-left: 190px !important;
     
       }
 }
-@media only screen and (min-width: 350px) and (max-width: 600px){
+@media only screen and (min-width: 350px) and (max-width: 899px){
     .mainCC{
         margin-left: -45px;
+        padding-left: 0 !important;
     
       }
 }
