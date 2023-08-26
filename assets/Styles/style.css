@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.mainC {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    /* border: 1px solid black; */
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+
+
+.col {
+    /* border: 1px solid black; */
+}
+
+.logo {
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid black; */
+
+}
+
+.rightArrow {
+    font-size: 35px;
+    color: white;
+
+}
+
+/* .rightArrow:hover {
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    font-size: 45px;
+} */
+
+/* code for animation */
+.slideOutDown {
+    animation-name: slideOutDown;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+}
+.zoomInRight {
+    animation-name: zoomInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes slideOutDown {
+    0% {
+        transform: translateY(0);
+        position: absolute;
+        top: 0;
+
+    }
+    25% {
+        opacity: .8;
+    }
+    
+    50% {
+        opacity: .6;
+    }
+    75% {
+        opacity: .4;
+    }
+
+    100% {
+        opacity: .2;
+        position: absolute;
+        top: 30%;
+        visibility: hidden;
+        transform: translateY(100%);
+    }
+} 
+
+
+
+
+
+@keyframes zoomInRight {
+    0% {
+        opacity: 0;
+        transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    }
+    20% {
+        opacity: .5;
+        transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    }
+}
+ 
+/* code for animation */
