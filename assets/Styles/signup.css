@@ -30,7 +30,7 @@
 }
 
 .myFormControl{
-    padding-left: 100px;
+    padding-left: 120px;
 }
 .txtarea{
     /* margin-left: 100px !important; */
@@ -536,14 +536,13 @@
     .mainCC{
         /* margin-left: 140px; */
         padding-left: 190px !important;
-    
       }
 }
 @media only screen and (min-width: 350px) and (max-width: 899px){
     .mainCC{
         margin-left: -45px;
         padding-left: 0 !important;
-    
+
       }
 }
 
