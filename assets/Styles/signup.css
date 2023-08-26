@@ -66,6 +66,7 @@
     -webkit-apperance: none;
     apperance: none;
     border: none !important;
+    font-size: 25px;
     
   }
   .btn__p, .btn__text {
@@ -73,7 +74,8 @@
     border-radius: 12px;
     transition: background 0.15s linear;
     border: none !important;
-    
+    font-size: 25px;
+    color: white;
   }
   .btn__p {
     animation-duration: 1s;
@@ -532,6 +534,12 @@
     margin-top: -40px;
   }
 
+
+  .fieryBtnCont{
+    margin-left: -280px;
+    padding-top: 100px;
+  }
+
 @media only screen and (min-width: 900px) and  (max-width: 1400px){
     .mainCC{
         /* margin-left: 140px; */
@@ -543,6 +551,11 @@
         margin-left: -45px;
         padding-left: 0 !important;
 
+      }
+
+      .fieryBtnCont{
+        margin-left: 3px;
+        padding-top: 20px;
       }
 }
 
