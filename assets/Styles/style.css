@@ -29,14 +29,20 @@ title{
 }
 
 .logo {
-    width: 600px;
+    width: 500px !important;
     /* border: 1px solid black; */
 
 }
 
+/* .fireShadow{
+    box-shadow: 0px 0px 20px 0px rgba(65, 37, 8, 0.75);
+    padding: 20px;
+} */
+
 .rightArrow {
     font-size: 35px;
     color: white;
+    border: none !important;
 
 }
 
@@ -58,16 +64,19 @@ title{
     font-size: 45px;
 } */
 
+
 /* code for animation */
 .slideOutDown {
     animation-name: slideOutDown;
     animation-duration: 5s;
     animation-fill-mode: both;
+
 }
 .zoomInRight {
     animation-name: zoomInRight;
     animation-duration: 1s;
     animation-fill-mode: both;
+    border: none !important;
 }
 
 @keyframes slideOutDown {
