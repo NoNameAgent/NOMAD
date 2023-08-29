@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.qrNo{
+    width: 34%;
+}
+
+.cloud{
+    font-size: 45px;
+    padding-top: 60px;
+    cursor: pointer;
+}
