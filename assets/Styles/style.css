@@ -1,7 +1,17 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{ 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+title{
+    font-family: 'Montserrat', sans-serif;
+    color: red !important;
+    background-color: red;
+
 }
 
 .mainC {
@@ -19,8 +29,7 @@
 }
 
 .logo {
-    height: 300px;
-    width: 300px;
+    width: 600px;
     /* border: 1px solid black; */
 
 }
@@ -29,6 +38,18 @@
     font-size: 35px;
     color: white;
 
+}
+
+.journeyBtn{
+    margin-top: 100px !important;
+
+}
+
+.journeyBtn h2{
+    font-size: 30px !important;
+    text-transform: capitalize;
+    color: white !important;
+    
 }
 
 /* .rightArrow:hover {
@@ -47,8 +68,6 @@
     animation-name: zoomInRight;
     animation-duration: 1s;
     animation-fill-mode: both;
-    border: none !important
-    ;
 }
 
 @keyframes slideOutDown {
